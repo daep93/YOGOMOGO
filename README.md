@@ -1,10 +1,13 @@
 # Welcome to YogoMogo!
 ## 👀 서비스 소개
 요고모고는 사용자가 등록한 그룹 단위로 음식점 추천과 추천 피드를 제공하는 서비스입니다. 친구들과 뭘 먹을지 더 이상 고민하지 마세요! 
+
 ## 🏠 [Homepage](https://just-eat-it-203.web.app/)
 ![로고 이미지](image/YogoMogo.png)
 
-<iframe width="956" height="538" src="https://www.youtube.com/embed/d1p72ix29mo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## YOUTUBE 광고
+[![YOGOMOGO이미지]((http://img.youtube.com/vi/d1p72ix29mo/0.jpg)](https://youtu.be/d1p72ix29mo?t=0s)
+
 
 ## ⭐️ 주요 기능
 - **개인 맞춤 리뷰 피드 제공**
