@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap');
+
+/* 
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Jua', sans-serif;
+*/
+
+.group__recommend__detail {
+  width: 100vw;
+  height: 150vh;
+  position: relative;
+  padding-top: 1rem;
+  background-color: #FFF;
+  transition: 1s all;
+}
+.main__menus {
+  position: relative;
+  padding-top: .3rem;
+  width: 100%;
+  height: 7vh;
+  font-weight: 500;
+  font-family: 'Do Hyeon', sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  z-index: 15;
+  transform: translateY(0);
+  transition: all .1s;
+
+}
+
+.main__menus img{
+  width: 1rem;
+  height: 1rem;
+
+}
+.group__recommend__detail__header {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menus__list {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  transition: all 0.3s;
+}
+.group__recommend__detail__section__wrapper {
+  position: relative;
+  width: 100%;
+  height: 92vh;
+  text-align: center;
+
+  background-color: #F08080;
+  color: white;
+  border-radius: 2rem 2rem 0 0 ;
+  padding: 2rem 1rem 0;
+  z-index: 10;
+  transition: all 1s;
+
+}
+.group__recommend__detail__header h1 {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 1.5rem;
+}
+
+.recommend__image {
+  width: 100%;
+  height: 100%;
+  padding-top: 5rem;
+}
+
+
+.group__recommend__detail__section {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 1rem 0;
+}
+
+.exit__recommend__detail {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 1.2rem;
+  position: absolute;
+  z-index: 35;
+  color:#FF7373 ;
+  top: 1rem;
+  right: 1rem;
+}
+.exit__recommend__detail img {
+  width: 1rem;
+  height: 1rem;
+}
+
+
+.group__recommend__detail__section h1 {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  padding: 1rem 0 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.group__recommend__detail__section h1 span {
+  font-size: 0.9rem;
+}
+
+.group__recommend__detail__section p {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: 'Jua', sans-serif;
+
+}
+
+.recommend__store__category {
+  padding-bottom: 1rem;
+}
+.recommend__store__address {
+  padding-bottom: 1.8rem;
+  color: rgba(255,255,255,0.7);
+}
+
+.recommend__store__score {
+  display: inline-block;
+  border: 1px solid salmon;
+  border-radius: 0.6rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.recommend__store__tel {
+  margin-top: 2rem;
+}
+
+.group__recommend__detail__section p img {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.kakao__map {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%,10%);
+  width: 100%;
+  height: 50%;
+  padding: 1rem 0.5rem 1.3rem;
+}
+.none__map__image {
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%,17%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 32;
+  border-radius: 1px solid;
+  background-color: #F08080;
+}
+.none__map__image img {
+  width: 90%;
+  height: 85%;
+
+}
+#map {
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  z-index: 30;
+}
+
+
+.popup__map__title {
+  width: 100%;
+  height: 3rem;
+}
+
+.popup__map__title a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 0.5rem;
+  border: 1px solid;
+  border-radius: 5px;
+  color:white;
+}
+
+.group__feed__detail__section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 1rem 0;
+  text-align: left;
+}
+
+.group__feed__header {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.group__feed__header h1{
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 1.5rem;
+}
+
+.group__feed__header p {
+  line-height: 1.1;
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+}
+.group__feed__header p img{
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.feed__store__category {
+  padding-bottom: 1.5rem ;
+}
+.feed__store__address img {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+.feed__group__members {
+  margin: 1.5rem 0;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.feed__member__card  {
+  position: absolute;
+  opacity: 0;
+  margin: 0.2rem 0rem;
+  left: 0.5rem;
+  bottom: 0;
+  transform: translate(0,50%);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 1px solid;
+  box-shadow: 5px 5px 12px -3px rgba(0, 0, 0, 0.13);
+  overflow: hidden;
+  transform: translate(-40px); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInLeft 0.5s forwards;
+}
+
+@keyframes fadeInLeft {
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.feed__num__members {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(200,200,200);
+  font-size: 1.5rem;
+}
+
+.feed__member__card img{
+  width: 103%;
+  height: 103%;
+  object-position: 50% 50%;
+  object-fit: cover;
+}
+
+.feed__store__tag {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.feed__tag {
+  height: 2rem;
+  padding: 0.2rem;
+  line-height: 1.5rem;
+  background-color: #ee6c6c;
+  border-radius: 10px;
+  margin-right:1rem;
+}
+
+.feed__store__tel img {
+  width: 1rem;
+  height: 1rem;
+
+}

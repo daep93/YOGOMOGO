@@ -1,0 +1,26 @@
+.bookmarked-page {
+	padding: 30px;
+}
+.bookmarked-page-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0px;
+}
+.bookmarked-page-close {
+	float: right;
+}
+
+.bookmarked-list {
+  display: inline-block;
+}
+
+.bookmarked-page-image {
+  display: inline-block;
+  width: 38vw;
+  height: 23vh;
+  margin: 5px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 1px 1px 3px 1px rgb(230, 230, 230);
+}

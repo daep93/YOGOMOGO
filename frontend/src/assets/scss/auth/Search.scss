@@ -1,0 +1,180 @@
+.map {
+    width: 100%;
+    height: 170px;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-bottom: 20px;
+  }
+  section {
+    margin-bottom: 60px;
+  }
+  header {
+    margin-bottom: 10px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    /* 부모 */
+    position: relative;
+  }
+  .checkRegion {
+    color: white;
+  }
+  .regions {
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .search_region {
+    height: 35px;
+    margin-right: 7px;
+    color: white;
+    background-color: #414141;
+    border: none;
+    width: 23%;
+    padding: 3px;
+    border-radius: 6px;
+  }
+  
+  nav > input {
+    margin-right: 7px;
+    margin-bottom: 10px;
+    background-color: #414141;
+    width: 60%;
+    height: 35px;
+    border-radius: 6px;
+    padding: 15px;
+    border: none;
+    color: white;
+    /* 겹치게 하기 시도 */
+    /* position: relative; */
+  }
+  input::placeholder {
+    color: #f5f5f5;
+    font-weight: 100;
+    font-size: 15px;
+  }
+  .search {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #ff7373;
+  }
+  .search i {
+    color: white;
+  }
+  
+  nav > button {
+    margin-bottom: 10px;
+  }
+  nav > p {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  article {
+    background-color: black;
+    /* position: relative; */
+  }
+  .selected_list {
+    /* 자식 */
+    /* position: absolute; */
+    top: 10px;
+    width: 100%;
+    color: white;
+  }
+  .complete_btn {
+    background-color: #ff7373;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+  }
+  .not_complete_btn {
+    background-color: #414141;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 8px;
+    color: #f5f5f5;
+    border: none;
+  }
+  
+  /* 1번 */
+  .suggeted_list {
+    width: 100%;
+    height: 500px;
+    /* max-height: 430px; */
+    overflow-y: scroll;
+    border: 1px solid;
+    /* 겹치기 시도 (자식) */
+    /* position: absolute; */
+    background-color: black;
+    z-index: 1;
+  }
+  .suggested_one {
+    z-index: 2;
+  }
+  
+  .restaraunt_item {
+    background-color: white;
+    margin-bottom: 13px;
+    padding: 15px;
+    border-radius: 7px;
+  }
+  .restaurant_detail {
+    width: 85%;
+    float: left;
+  }
+  .restaurant_add-btn {
+    width: 15%;
+    display: flex;
+  }
+  .restaurant_add {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #ff7373;
+  }
+  .restaurant_add i {
+    color: white;
+  }
+  .restaurant_name {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .restaurant_address {
+    font-size: 12px;
+  }
+  .restaurant_add_btn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* 2번 */
+  .selected_restaurant {
+    margin: 0 auto;
+    width: 100%;
+    /* width: 98%; */
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+  }
+  .restaurant_count {
+    margin: 0 0 15px 5px;
+    font-size: 13px;
+    color: #ff7373;
+  }
+
+
+
+
+  

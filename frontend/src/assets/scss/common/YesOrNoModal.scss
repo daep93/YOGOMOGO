@@ -1,0 +1,59 @@
+.modal--overlay{
+  position:fixed;
+  background-color: rgba(0,0,0,0.3);
+  width: 100vw;
+  height:100vh;
+  top:0;
+  left:0;
+  z-index:9997;
+}
+.modal--container{
+  position:fixed;
+  padding:60px 30px 20px 30px;
+  width:310px;
+  height:310px;
+  background-color: white;
+  border-radius: 10px;
+  z-index:9998;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  &>div{
+    text-align: center;
+    font-weight:800;
+    &:nth-child(1){
+      margin-bottom: 10px;
+    }
+    &:nth-child(2){
+      font-size:20px;
+      margin-bottom: 20px;
+    }
+  }
+  animation: fadeIn 0.5s;
+  @keyframes fadeIn {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+}
+.button--container{
+  display: flex;
+  justify-content: space-around;
+  div{
+    font-weight: 500;
+    padding:10px 35px;
+    border-radius: 5px;
+    &:nth-child(1){
+      background-color: $pink;
+      color:white;
+    }
+    &:nth-child(2){
+      border:1px solid $pink;
+      color:$pink;
+    }
+
+  }
+}

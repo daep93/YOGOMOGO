@@ -1,0 +1,38 @@
+.menu__detail__list {
+  width: 100%;
+  height: 100%;
+
+}
+
+.swiper__group {
+  height: 100%;
+}
+
+.slider__box {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
+}
+
+.menu__img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.swiper-pagination {
+  height: 1vh;
+  padding-top: 0.1rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: rgba(102,160,145);
+
+}
+

@@ -1,0 +1,61 @@
+.search-restaurant-select {
+	height: 6vh;
+	width: 100%;
+	border-radius: 10px;
+	border: 1px solid $pink;
+	float: left;
+	padding: 7px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+.search-restaurant-input-area {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.search-restaurant-input {
+	height: 6vh;
+	width: 69vw;
+	border-radius: 10px;
+	border: 1px solid $pink;
+	padding: 7px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+.search-restaurant-button {
+	height: 6vh;
+	width: 6vh;
+	background-color: $pink;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 30px;
+	>i {
+		color: white;
+	}
+}
+.search-restaurant-subtitle {
+	color: $pink;
+	margin-bottom: 10px;
+}
+// .search-restaurant-button-icon {
+// 	color: white;
+// }
+.search-restaurant-list {
+	display: inline-block;
+	max-height: 180px;
+	overflow-y: scroll;
+}
+.search-restaurant-selected-name {
+	padding-left: 5px;
+	font-size: 17px;
+	font-weight: bold;
+}
+.search-restaurant-selected-address {
+	padding-left: 5px;
+	font-size: 14px;
+	color: $grey600;
+	margin-bottom: 10px;
+}
+.none {
+	display: none;
+}

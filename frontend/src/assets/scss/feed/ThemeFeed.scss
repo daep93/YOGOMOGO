@@ -1,0 +1,104 @@
+.container{
+    padding: 20px 0px;
+}
+
+.search--bar{
+    display: flex;
+    
+    margin-bottom:30px;
+    & > input {
+        border-radius: 6px;
+        width: 70vw;
+        border:1px solid $pink;
+        height:30px;
+        font-size:14px;
+        padding:10px;
+        margin-right:10px;
+    }
+    & > div {
+        height:30px;
+        width:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        background-color: $pink;
+        cursor: pointer;
+        i {
+         color:white;   
+        }
+    }
+}
+.post--container{
+    display: inline-block;
+    margin:0px;
+    width: 50%;
+    height: 200px;
+    padding:10px 10px 10px 0;
+}
+.review--thumbnail{
+    margin-bottom: 6px;
+    position: relative;
+   
+    & > img {
+        height:140px;
+        width:100%;
+        max-width: 100%;
+        object-fit: cover;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+    .top--nav{
+        position:absolute;
+        top: 5px;
+        width:250px;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 5px;
+        .score{
+            background-color: white;
+            padding:5px 5px;
+            border-radius: 10px;
+            color:$pink;
+            font-size:12px;
+        }
+        .bookmark{
+            font-size: 16px;
+            line-height: 20px;
+            padding:2px 5px;
+            border-radius: 5px;
+            background-color: white;
+            color:$pink;
+            box-shadow: 5px 5px 12px -3px rgba(0, 0, 0, 0.13);
+        }
+    }
+}
+.store--info--head {
+    display: flex;
+    .headcounter{
+        padding:2px 4px;
+        font-size:6px;
+        background-color: $pink;
+        border-radius: 6px;
+        color: white;
+        margin-right:3px;
+    }
+    .title{
+        font-size:12px;
+        line-height: 14px;
+        font-weight: 600;
+    }
+    margin-bottom: 5px;
+}
+.store--info--foot{
+    font-size:8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:$grey600;
+}
+.error--msg{
+    text-align: center;
+    color: $grey600;
+}

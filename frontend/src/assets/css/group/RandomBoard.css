@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+.random__board__wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  /* background-color: #1F2F98; */
+  background-color: #ffece3;
+  /* background-color: #f6b1b1; */
+}
+
+.gray__background {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -30;
+  background-color: #ffece3;
+  transition: all .5s;
+}
+
+.selected {
+  opacity: 1;
+  z-index: 28;
+}
+
+.modal__card {
+  opacity: 0;
+  position: absolute;
+  top: 3.5%;
+  left: 50%;
+  width: 80%;
+  height: 60%;
+  border-radius: 15px;
+  padding: 1rem;
+  background-color: #F3ABB6;
+  
+  z-index: -10;
+  backface-visibility: hidden;
+  transform: translate(-50%,0) rotateY(180deg);
+  transition: all .5s;
+}
+.modal__card__wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.modal__exit {
+  position: absolute;
+  font-size: 1rem;
+  right: 0;
+}
+.modal__header {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+  background-image: url('../../image/comingsoon2.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  padding: 2rem 1rem 1rem;
+}
+
+.modal__header img{
+  width: 100%;
+  height: 100%;
+  background-color: #F3ABB6;
+  object-fit: cover;
+}
+.modal__section {
+  padding: 1rem;
+  width: 100%;
+  height: 40%;
+  font-size: 1.2rem;
+  font-family: 'Do Hyeon', sans-serif;
+
+}
+
+.move__to__detail {
+  position: absolute;
+  left: 50%;
+  font-size: 1rem;
+
+  transform: translateX(-50%);
+  bottom: 0;
+}
+.showModal{
+  opacity: .8;
+  z-index: 30;
+  transform: translate(-50%,0) rotateY(0);
+}
+
+@keyframes rotate {
+  0% {
+    transform: scale();
+  }
+}
+.random__board__header {
+  position:relative;
+  text-align: center;
+  width: 100%;
+  height: 20vh;
+  padding: 3rem 1rem 1rem;
+}
+
+.back__btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: white;
+}
+
+.back__btn img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.random__border__section {
+  width: 100%;
+  height: 80vh;
+  padding: 0.2rem;
+  position: relative;
+  font-size: 1.5rem;
+
+
+  /* overflow: hidden; */
+}
+
+.random__container {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+  display: grid;
+  /* grid-template-columns: repeat(1, 1fr); */
+  gap: 10px;
+  /* width: 238px; */
+  width: 100%;
+  height: 45vh;
+  /* margin-top: 10px; */
+}
+.random__cell {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* background-image: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%); */
+  /* background-color: #787FF6; */
+  background-color: #FFCAD4;
+  font-family: 'Do Hyeon', sans-serif;
+  /* color: #fff; */
+  color: #9F8189;
+  border-radius: 30px;
+  border: 1px solid #aaa;
+  margin-right: -1px;
+  margin-bottom: -1px;
+  position: relative;
+  backface-visibility: hidden;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%); */
+  transition: all .5s;
+
+}
+.random__cell  *{
+  pointer-events: none;
+}
+/* .random__cell:nth-child(3n+1) {
+  margin-right: 0;
+  background-color: black;
+} */
+.random__cell:nth-child(2n) {
+  /* background-color: #7BD5F5;  */
+  background-color: #F3ABB6; 
+   /* color: black; */
+  color: #9F8189;
+
+}
+.reandom__cell-move {
+  transition: transform 1s;
+}
+
+.flip__card {
+  transform: perspective(500px) rotateY(180deg) scale(1);
+}
+
+.random__btn__conatiner {
+  position: absolute;
+  bottom: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.random__btn {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #9F8189;
+  font-family: 'Do Hyeon', sans-serif;
+  letter-spacing: 2px;
+  background-color: #FFCAD4;
+  border-radius: 10px;
+}
+
+.modal__exit img {
+  width: 3rem;
+  height: 3rem;
+}

@@ -1,0 +1,51 @@
+.group__recommend__wrapper {
+  flex: 1;
+  width: 100%;
+  /* margin: 0 1px; */
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.5rem 0;
+  transform: translate3d(0,0,0);
+  transition: all 750ms ease;
+}
+
+.recommend__card {
+  background:linear-gradient(
+  to left top,
+  rgba(255,255,255,0.8),
+  rgba(255,255,255,0.5));
+  width: 96%;
+  height: 8rem;
+  margin: 0.4rem 0;
+  border-radius: 1rem;
+  box-shadow: 6px 6px 20px rgba(122,122,122,0.212);
+  padding: 1rem;
+  position: relative;
+}
+
+.store__info h1 {
+  font-family: 'Black Han Sans', sans-serif;
+  padding: 0.5rem 0;
+}
+.store__info p {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.9rem;
+}
+.store__img {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5px;
+  overflow: hidden;
+  transform: translate(0,-50%);
+}
+
+.store__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

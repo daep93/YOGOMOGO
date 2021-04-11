@@ -1,0 +1,182 @@
+#file-upload {
+  margin: 20px auto;
+  /* padding: 10px; */
+}
+
+.image-upload-btn {
+  font-size: 17px;
+  color:  rgb(241, 126, 113);
+  vertical-align: middle;
+}
+
+.upload {
+  background: white;
+  border: 2px solid rgb(241, 126, 113);
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  margin: 20px auto;
+  padding: 5px 10px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.upload:hover {opacity: 0.75;}
+.upload:active {opacity: 1;}
+.upload > a {
+  color: #FFF;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  height: 40px;
+  width: 40px;
+  outline-offset: -5px;
+}
+.upload > a > span .fa {padding: 8px;}
+.upload > a > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: table-cell;
+  vertical-align: middle;
+}
+.upload > a > .files {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.upload > a > .files > #files {
+  bottom: 0;
+  cursor: inherit;
+  font-size: 1000px !important;
+  height: 300px;
+  margin: 0;
+  opacity: 0;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  right: 0;
+}
+/* Prevent the text contents of draggable elements from being selectable. */
+[draggable] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    /* Required to make elements draggable in old WebKit */
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+}
+
+.box {
+  background: #ffffff;
+  box-shadow: 1px 1px 3px 2px rgba(219, 219, 219, 0.493);
+  border-radius: 10px;
+  /* margin: 20px auto 0px; */
+  overflow: hidden;
+  position: relative;
+  padding: 20px 10px;
+  width: 100%;
+  /* max-width: 705px; */
+  height: auto;
+  text-align: center;
+}
+.info-box {height: 20px;}
+.info-box {
+  bottom: 0;
+  color: #555;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  height: 100%;
+  letter-spacing: 1px;
+  left: 0;
+  line-height: 80px;
+  position: absolute;
+  right: 0;
+  text-shadow: 0 1px 0px #FFF;
+  top: 0;
+  width: 100%;
+}
+#container {padding: 20px 0px;}
+#container > .box-image {
+  display: inline-block;  
+  height: 215px;
+  width: 215px;
+  border: 5px solid #FFF;
+  background-color: #F0F0F0;
+  box-shadow: 0 0 0 1px #CCC;
+  margin: 5px;
+  text-align: center;
+  cursor: move;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+}
+#container > .box-image > span {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  background: rgba(0, 0, 0, 0.7);
+  border: 5px solid transparent;
+  border-radius: 50px;
+  color: #F7F7F7;
+  cursor: default;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+}
+#container > .box-image > img {
+  display: block;
+  height:215px;
+  object-fit: cover;
+  padding:0px;
+  margin:auto;
+  width: 215px;
+}
+.box-bar {
+  *background: transparent;
+  border-top: 0;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  max-width: 400px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  padding: 10px 10px;
+  position: relative;
+  text-align: center;
+}
+.box-bar > .fa {color: #08C;font-size: 20px;}
+.counter, #count {display: inline-block;vertical-align: middle;}
+#count {cursor: pointer;margin: 0px 20px 0 0;padding: 7px 15px 9px;}
+#count {
+  background: #08C;
+  border-radius: 5px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.counter {
+  background: #FFF;
+  border-radius: 50px;
+  color: #08C;
+  font-family: Roboto;
+  font-size: 25px;
+  height: auto;
+  margin: 0 10px 0 20px;
+  padding: 5px 15px;
+  vertical-align: middle;
+}
+
+        

@@ -1,0 +1,34 @@
+.review-feed-page-top-navigation{
+	height: 120px;
+	background-color: black;
+	text-align: center;
+	line-height: 100px;
+	margin-bottom: 4px;
+	color: white;
+	font-size:14px;
+}
+.review-feed-page-map-modal {
+	display: inline-block;
+}
+.review-feed-page-container {
+	width: 100%;
+	padding: 50px 30px;
+	border-radius: 30px 30px;
+	position: absolute;
+	background-color: white;
+	z-index:5;
+	top: 90px;
+}
+.review-feed-page-title {
+	display: inline;
+	height: 50%;
+}
+.review-feed-page-main-title {
+	font-size: 32px;
+	font-weight: bold;
+	margin: 8px 0px;
+}
+.review-feed-page-sub-title {
+	font-size: 14px;
+	color: $pink;
+}

@@ -1,0 +1,124 @@
+@import 'mixins';
+@include spacing();
+// 텍스트 정렬
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-primary {
+  color: $primary;
+}
+.text-success {
+  color: $success !important;
+}
+.text-secondary{
+    color: $grey600;
+}
+.text-secondary-light{
+    color: $grey200;
+}
+.text-secondary-heavy {
+    color: $grey800;
+  }
+.text-uppercase {
+    text-transform: capitalize;
+  }
+
+.text-truncate {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap;
+  word-wrap: normal !important;
+}
+
+// position
+.p-absolute {
+  position: absolute !important;
+}
+.p-fixed {
+  position: fixed !important;
+}
+.p-relative {
+  position: relative !important;
+}
+
+.flex {
+  display: flex;
+  &.flex-row {
+    flex-direction: row;
+  }
+  &.flex-column {
+    flex-direction: column;
+  }
+  &.justify-center {
+    justify-content: center;
+  }
+  &.justify-between {
+    justify-content: space-between;
+  }
+  &.justify-start {
+    justify-content: flex-start;
+  }
+  &.justify-end {
+    justify-content: flex-end;
+  }
+  &.align-center {
+    align-items: center;
+  }
+}
+
+// display
+.d-block {
+  display: block;
+}
+.d-inline-block {
+  display: inline-block;
+}
+
+// cursor
+.c-pointer {
+  cursor: pointer !important;
+}
+
+.h-screen {
+  min-height: 100vh;
+}
+
+.f-thin {
+  font-weight: $thin;
+}
+
+.f-light {
+  font-weight: $light;
+}
+
+.f-normal {
+  font-weight: $normal;
+}
+
+.f-medi {
+  font-weight: $medi;
+}
+
+.f-bold {
+  font-weight: $bold;
+}
+
+.line-height-md{
+    line-height: 25px;
+}
+.line-height-lg{
+    line-height: 28px;
+}
+.no-drag {
+  -ms-user-select: none; 
+  -moz-user-select: -moz-none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  user-select:none;
+}

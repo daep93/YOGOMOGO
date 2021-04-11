@@ -1,0 +1,32 @@
+.group--container {
+padding: 0px 30px;
+position:relative;
+margin-bottom: 20px;
+top:-30px;
+  header {
+    font-weight: 600;
+  }
+}
+.group--list{
+  height:140px;
+  display: flex;
+  align-items: center;
+  overflow-x:scroll;
+  .group--element{
+    margin-right:10px;
+  }
+  .group--img{
+    width:90px;
+    height:90px;
+    border-radius:10px;
+    object-fit: cover;
+    
+    margin-bottom: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  .group--name{
+    text-align: center;
+    font-size:14px;
+    color:$grey700;
+  }
+}

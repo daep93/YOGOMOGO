@@ -1,0 +1,108 @@
+
+
+
+
+/* section {
+    min-height: 100vh;
+}
+
+.setting_title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  
+.setting_title2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+}
+.setting_intro {
+    font-size: 12px;
+    color: #ff7373;
+    margin-bottom: 55px;
+  }
+  
+
+.profSetting_all
+{
+    margin: 30px;
+}
+
+.profSetting_icon-close
+{
+    margin-right: 30px;
+    font-size: 23px;
+    color: grey;
+    cursor: pointer;
+}
+
+.profSetting_title
+{
+    font-size: 20px;
+    display: inline-block;
+}
+
+.profSetting_icon-check
+{
+    color: green;
+    margin-left: 60px;
+    font-size: 23px;
+    display: inline-block;
+}
+
+.profSetting_profile-align
+{
+    margin: 30px;
+    text-align: center;
+}
+
+.profSetting_all h1
+{
+    font-size: 20px;
+    text-align: left;
+}
+
+.profSetting_profile-img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 5px;
+    background: #ff7373;
+    margin-top: 30px;
+}
+
+.profSetting_profile-pic-btn
+{
+    margin: 20px;
+}
+
+
+.profSetting_info
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.profSetting_info p
+{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+} */
+.before_redundancy_check {
+  color: red;
+  font-size: 10px;
+  margin-left: 10px;
+}
+.after_redundancy_check {
+  color: blue;
+  font-size: 10px;
+  margin-left: 10px;
+}

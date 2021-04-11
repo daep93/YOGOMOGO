@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap');
+
+/* 
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Jua', sans-serif;
+*/
+
+.group__post__wrapper {
+  flex: 1;
+  width: 100vw;
+  height: 100%;
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  padding: 0.5rem 0.5rem 1rem;
+  transform: translate3d(0,0,0);
+  transition: all 750ms ease;
+}
+.feed__none {
+  position: absolute;
+  width: 13rem;
+  height: 13rem;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,0);
+  text-align: center;
+}
+.feed__none p {
+  padding: 0.5rem;
+  border-radius: 13px;
+  color: #444;
+  background-color: #F3ABB6 ;
+  font-family: 'Jua', sans-serif;
+
+}
+.none__feed__img {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+.feed__none img {
+  width: 100%;
+  height: 100%;
+}
+.post__box {
+  width: 100%;
+  height: 17rem;
+  /* width: 31%; */
+  /* height: 8rem; */
+  /*  background-color: antiquewhite;*/
+  /* margin-right: 0.05rem; */
+  /*  padding: 0.1rem;*/
+  overflow: hidden;
+}
+
+.post__box img {
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.inner__box {
+  pointer-events: none;
+
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.post__box:nth-child(2n){
+  padding-top: 1.5rem;
+}
+
+.post__box:nth-child(2n+1){
+  padding-bottom: 1.5rem;
+}
+
+.post__main__img {
+  border-radius: 10px;
+  width: 100%;
+  height: 80%;
+}
+.post__main__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  filter: grayscale(0.1);
+}
+
+.post__main__title {
+  width: 100%;
+  height: 20%;
+  padding: 0.7rem 0.5rem;
+}
+
+.post__main__title h1 {
+  font-size: 1.2rem;
+  padding-bottom: 0.2rem;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.post__main__title p {
+  font-size: 0.8rem;
+  font-family: 'Jua', sans-serif;
+
+}
+
+.nofeed {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.nofeed img {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}

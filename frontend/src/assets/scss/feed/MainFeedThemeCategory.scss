@@ -1,0 +1,32 @@
+.theme-sub-title {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5vh 0vh 1vh 0vh;
+}
+.theme-list {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 30px auto;
+}
+.theme-card {
+	width: 48%;
+	height: 10vh;
+	background-color: white;
+	box-shadow: 1px 1px 2px #e6d2d2;
+	border-radius: 10px;
+	position: relative;
+	margin-bottom: 15px;
+	padding: 5px;
+	&:hover {
+		background-color: $pink;
+		color: white;
+	}
+}
+.theme-card-title {
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 9vh;
+}

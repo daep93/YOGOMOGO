@@ -1,0 +1,67 @@
+.total-hot-feed-all {
+	display: inline-block;
+	position: relative;
+	border-radius: 10px;
+	width: 50%;
+	height: 30vh;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+.total-hot-feed-all-score-box {
+	padding: 5px;
+	background-color: white;
+	position: absolute;
+	left: 5px;
+	margin: 10px;
+	border-radius: 5px;
+}
+.total-hot-feed-all-score-text {
+	color: $pink;
+	font-size: 12px;
+	font-weight: bold;
+}
+.total-hot-feed-all-bookmark {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	color: $pink;
+	padding: 6px 3px;
+	background-color: white;
+	border-radius: 5px;
+}
+.total-hot-feed-all-image {
+	width: 100%;
+	height: 75%;
+	margin: 0px 0px 10px 0px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px 1px rgb(230, 230, 230);
+	img {
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		object-fit: cover;
+	}
+}
+.total-hot-feed-all-info {
+	margin-left: 10px;
+}
+.total-hot-feed-all-info-main {
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+.total-hot-feed-all-headcount {
+	background-color: $pink;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 3px 6px;
+}
+.total-hot-feed-all-title {
+	display: inline-block;
+	margin-left: 5px;
+	font-weight: bold;
+}
+.total-hot-feed-all-store-info {
+	font-size: 11px;
+	color: rgb(129, 129, 129);
+}

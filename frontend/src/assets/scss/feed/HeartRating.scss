@@ -1,0 +1,171 @@
+* {
+	box-sizing: border-box;
+}
+.star-rating-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	margin: 30px 0px;
+}
+.rating {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	overflow: hidden;
+	flex-direction: row-reverse;
+	height: 150px;
+	position: relative;
+	>input {
+		display: none;
+		&:checked {
+			~ {
+				label {
+					background-image: url("https://static.vecteezy.com/system/resources/previews/001/187/511/non_2x/heart-png.png");
+					~ {
+						label {
+							background-image: url("https://static.vecteezy.com/system/resources/previews/001/187/511/non_2x/heart-png.png");
+						}
+					}
+				}
+			}
+		}
+		&:not(:checked) {
+			~ {
+				label {
+					&:hover {
+						background-image: url("https://static.vecteezy.com/system/resources/previews/001/187/511/non_2x/heart-png.png");
+						~ {
+							label {
+								background-image: url("https://static.vecteezy.com/system/resources/previews/001/187/511/non_2x/heart-png.png");
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	>label {
+		cursor: pointer;
+		width: 40px;
+		height: 40px;
+		margin-top: auto;
+		background-image: url("https://www.downloadclipart.net/large/20113-solid-black-heart-design.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 76%;
+		transition: .3s;
+	}
+}
+.rating-0 {
+	filter: grayscale(100%);
+}
+.emoji-wrapper {
+	width: 100%;
+	text-align: center;
+	height: 100px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	&:before {
+		content: "";
+		height: 15px;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		z-index: 1;
+		top: 0;
+		background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 35%,rgba(255,255,255,0) 100%);
+	}
+	&:after {
+		content: "";
+		height: 15px;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		z-index: 1;
+		bottom: 0;
+		background: linear-gradient(to top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 35%,rgba(255,255,255,0) 100%);
+	}
+}
+.emoji {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: .3s;
+	>svg {
+		margin: 15px 0;
+		width: 70px;
+		height: 70px;
+		flex-shrink: 0;
+	}
+}
+#rating-1 {
+	&:checked {
+		~ {
+			.emoji-wrapper {
+				>.emoji {
+					transform: translateY(-100px);
+				}
+			}
+		}
+	}
+}
+#rating-2 {
+	&:checked {
+		~ {
+			.emoji-wrapper {
+				>.emoji {
+					transform: translateY(-200px);
+				}
+			}
+		}
+	}
+}
+#rating-3 {
+	&:checked {
+		~ {
+			.emoji-wrapper {
+				>.emoji {
+					transform: translateY(-300px);
+				}
+			}
+		}
+	}
+}
+#rating-4 {
+	&:checked {
+		~ {
+			.emoji-wrapper {
+				>.emoji {
+					transform: translateY(-400px);
+				}
+			}
+		}
+	}
+}
+#rating-5 {
+	&:checked {
+		~ {
+			.emoji-wrapper {
+				>.emoji {
+					transform: translateY(-500px);
+				}
+			}
+		}
+	}
+}
+.feedback {
+	max-width: 360px;
+	background-color: #fff;
+	width: 100%;
+	padding: 30px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	box-shadow: 0 4px 30px rgba(0,0,0,.05);
+}

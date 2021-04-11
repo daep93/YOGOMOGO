@@ -1,0 +1,196 @@
+// @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap');
+
+/* 
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Jua', sans-serif;
+*/
+
+.group__main__wrapper {
+  padding: 1rem;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  /* background-color:#d96963; */
+  /* background-color: rgba(102,160,145); */
+  
+}
+.no__group__wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+}
+.no__group__img {
+  width: 50vw;
+  height: 25vh;
+  // width: 100%;
+  // height: 100%;
+}
+.no__group__wrapper p{
+  width: 11rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 13px;
+  font-family: 'Jua', sans-serif;
+
+  background-color: #F3ABB6;
+}
+.no__group__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.group__main__header ,.group__main__desc {
+  opacity: 0;
+  transform: translate(-30px,0);
+  /* color: white; */
+  animation: fadeInLeft .6s forwards;
+}
+.group__main__header{
+  font-weight: 700;
+}
+
+@keyframes fadeInLeft {
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.group__main__header {
+  text-align: center;
+  margin-top:3rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 0;
+  font-size: 1.8rem;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.group__main__desc {
+  font-size: 1rem;
+  font-family: 'Jua', sans-serif;
+}
+
+.group__main__list {
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.group__main__card {
+  opacity: 0;
+  width: 100%;
+  height: 11rem;
+  /* background-color: white; */
+  /* background-color: rgba(181,227,216); */
+  border-radius: 1rem;
+  padding: 0.3rem;
+  /* margin: 1rem 0; */
+  transform: translate(0,100px);
+  background-color: #FFF;
+  /* box-shadow: 5px 5px 12px -3px rgba(0, 0, 0, 0.13); */
+  /* box-shadow: rgba(0, 0, 0, 0.25); */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  animation: .5s fadeIn forwards;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}
+
+.group__main__card__container {
+  pointer-events: none;
+  width: 100%;
+  height: 70%;
+  /* background-color: aqua; */
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  place-items: center;
+  gap: 1px;
+}
+
+.group__main__card:nth-child(4n+1){
+  color: #fff;
+  background-color: black;
+}
+.group__main__card:nth-child(4n){
+  color: #fff;
+  background-color: black;
+}
+
+.group__main__card h1 {
+  font-family: 'Do Hyeon', sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
+  text-align: center;
+  font-size: 1rem;
+  pointer-events: none;
+  letter-spacing: 1px;
+  
+}
+
+.group__main__card p {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 0.7rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  pointer-events: none;
+}
+
+.group__main__member {
+  margin: 0.4rem 0.1rem 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid rgb(119,109,97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* background-color: white; */
+  background-color: rgba(0,0,0,0.2);
+}
+
+.group__main__member img {
+  width: 102%;
+  height: 102%;
+  object-fit: cover;
+}
+
+.group__list-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.group__list-enter-active,
+.group__list-leave-active {
+  opacity: 1;
+  transition: all 0.7s;
+}
+
+.group__list-enter,
+.group__list-leave-to {
+  opacity: 0;
+  transform: translateY(20px);
+}

@@ -1,0 +1,45 @@
+h1 {
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+h3{
+    color:#FDA7A7;
+    margin-bottom: 10px;
+}
+.theme--title {
+    font-weight: 400;
+  }
+.top--navigation{
+    height:120px;
+    background-color: black;
+    text-align: center;
+    position:relative;
+    margin-bottom: 4px;
+    color:white;
+    font-size:14px;
+    & > div {
+        position:absolute;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        top:40px;
+        i{
+            margin-right:5px;
+        }
+    }
+}
+.theme--container{
+    width: 100%;
+    padding:50px 20px;
+    border-radius: 30px 30px;
+    position: absolute;
+    background-color: white;
+    z-index:5;
+    top:90px;
+
+}
+.to--feed--page{
+    float: right;
+    padding-right:10px;
+}
