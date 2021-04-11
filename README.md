@@ -3,7 +3,7 @@
 요고모고는 사용자가 등록한 그룹 단위로 음식점 추천과 추천 피드를 제공하는 서비스입니다. 친구들과 뭘 먹을지 더 이상 고민하지 마세요! 
 ## 🏠 [Homepage](https://just-eat-it-203.web.app/)
 ![로고 이미지](image/YogoMogo.png)
-
+<iframe width="956" height="538" src="https://www.youtu.be.com/embed/d1p72ix29mo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ## ⭐️ 주요 기능
 - **개인 맞춤 리뷰 피드 제공**
 	사용자의 취향에 가까운 음식점들의 리뷰를 제공해준다. 테마별로 모아 볼 수 있고, 전국적 인기 리뷰들을 볼 수 있을 뿐 아니라, 사용자의 현재 위치 기반으로 동네에서 발생한 리뷰들을 확인할 수 있다.
