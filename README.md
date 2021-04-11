@@ -6,7 +6,7 @@
 ![로고 이미지](image/YogoMogo.png)
 
 ## YOUTUBE 광고
-[![YOGOMOGO이미지]((http://img.youtube.com/vi/d1p72ix29mo/0.jpg)](https://youtu.be/d1p72ix29mo?t=0s)
+[![YOGOMOGO이미지](http://img.youtube.com/vi/d1p72ix29mo/0.jpg)](https://youtu.be/d1p72ix29mo?t=0s)
 
 
 ## ⭐️ 주요 기능
