@@ -4,7 +4,7 @@
 ## 🏠 [Homepage](https://just-eat-it-203.web.app/)
 ![로고 이미지](image/YogoMogo.png)
 
-<iframe width="956" height="538" src="https://www.youtu.be.com/embed/d1p72ix29mo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="956" height="538" src="https://www.youtube.com/embed/d1p72ix29mo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## ⭐️ 주요 기능
 - **개인 맞춤 리뷰 피드 제공**
